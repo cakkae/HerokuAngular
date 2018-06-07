@@ -1,0 +1,37 @@
+{
+  "name": "heroku",
+  "version": "1.0.0",
+  "description": "Heroku (MEAN - Angular2)",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "build": "cd client && ng build --prod && cd.. && node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cakkae/HerokuAngular.git",
+    "url": "https://github.com/cakkae/HerokuAngular.git"
+  },
+  "keywords": [
+    "MEAN",
+    "Stack",
+    "with",
+    "Angular2",
+    "on",
+    "Heroku"
+  ],
+  "author": "Adnan Beganovic",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/cakkae/HerokuAngular/issues"
+  },
+  "homepage": "https://github.com/cakkae/MEANAngular#readme",
+  "dependencies": {
+    "bcrypt-nodejs": "0.0.3",
+    "body-parser": "^1.18.3",
+    "cors": "^2.8.4",
+    "express": "^4.16.3",
+    "jsonwebtoken": "^8.2.2",
+    "mongoose": "^4.13.14"
+  }
+}
